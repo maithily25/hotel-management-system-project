@@ -169,7 +169,7 @@ public class HotelRoomCRUD {
             return;
         }
         System.out.println("\n-------------------------------------------------------------------------------------------------------------------------------------------------");
-        System.out.printf(
+        System.out.printf("%-8d %-8s %-10d %-16s %-10s %-10s %-12s %-10s %-10.2f%n" ,
                 "RoomNo", "BedType", "Occupancy", "Aadhaar", "Breakfast", "Cleaned", "Available", "Category", "Price");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
         for (Room room : rooms) {
